@@ -1,0 +1,38 @@
+{
+  "name": "satellizer",
+  "version": "1.0.0",
+  "description": "Visualize 11 years of satellite launches.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch && browser-sync start -s -f 'app' --no-ui --no-notify --no-open --no-inject-changes --reload-delay 300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iulian4ik/satellizer.git"
+  },
+  "keywords": [
+    "visualization",
+    "charts",
+    "dataviz"
+  ],
+  "author": "Iulian Gulea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iulian4ik/satellizer/issues"
+  },
+  "homepage": "https://github.com/iulian4ik/satellizer#readme",
+  "dependencies": {
+    "d3": "^4.3.0",
+    "datamaps": "^0.5.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-latest": "^6.16.0",
+    "browser-sync": "^2.17.6",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
